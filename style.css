@@ -151,11 +151,11 @@ padding:50px;
             max-width: 300%;
         }
         table {
-            width: 100%;
+            /* width: 100%; */
             border-collapse: collapse;
-            margin-top: 20px;
+            margin-top: 10px;
             background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,1);
         }
         th, td {
             border: 1px solid #ddd;
