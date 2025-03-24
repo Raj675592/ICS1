@@ -13,6 +13,7 @@
         
         <h1 id="z">
             <button id="darkModeToggle">🌙 </button>
+           
 
 <script>
   const toggleButton = document.getElementById('darkModeToggle');
@@ -22,6 +23,16 @@
       ? '☀️ ' 
       : '🌙 ';
   });
+
+  function filterCards() {
+  const query = document.getElementById('searchBar').value.toLowerCase();
+  const cards = document.querySelectorAll('.card');
+  
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    card.style.display = text.includes(query) ? 'block' : 'none';
+  });
+}
 </script>
 
             
@@ -30,7 +41,7 @@
     </header>
     
      <div class="course">  
-       
+        <input type="text" id="searchBar" placeholder="Search courses..." onkeyup="filterCards()" />
          <div class="card"> 
           <!-- <a  href="#" onclick="loadCourse('MTH111M')"> -->
             <a href="mth111.html" class="card-course" >
@@ -328,8 +339,11 @@
 
                                                         </div>
                                                                 
-        
+   
 </div>
+<footer>
+    <p>© 2025-26 IIT KANPUR</p>
+</footer>
 </body>
 </html>
 

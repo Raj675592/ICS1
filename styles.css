@@ -38,7 +38,10 @@ section a {
     font-size: 1.2em;
     transition: background-color 0.3s ease;
 }
-
+footer {
+  align-items: center;
+  text-align: center;
+}
 section a:hover {
     background-color: #e0e0e0; 
 }
