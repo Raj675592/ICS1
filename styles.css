@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0a05f9;
+    color: #ffffff; 
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section a {
+    display: block;
+    padding: 15px;
+    background-color: #f9f7f7; 
+    color: #1905f6; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+section a:hover {
+    background-color: #e0e0e0; 
+}
+
+section a strong {
+    display: flex;
+    align-items: center;
+}
+
+section a strong::before {
+    content: attr(data-icon);
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+#darkModeToggle {
+    background-color: #101010;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    /* border-radius: 30px; */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  #darkModeToggle:hover {
+    background-color: #0b0b0c;
+    transform: scale(1.05);
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode a {
+    color: #121313;
+  }
+  
+  .dark-mode #darkModeToggle {
+    background-color: #ff9800;
+    color: #000;
+  }
+  
+  .dark-mode #darkModeToggle:hover {
+    background-color: #e68900;
+  }
+  button{
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    width:170px;
+    border-radius: 8px;
+  }
+  button{
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    width:170px;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    
+  }
+  a {
+    color: #09f143;
+  }
+  a {
+    color: #0011ff;
+  }
+
+
+
+
+
+
+
+
+

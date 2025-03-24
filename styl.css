@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Light Mode Styles */
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  #darkModeToggle {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #darkModeToggle:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Lecture Notes Section */
+  #y {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    color: #007bff;
+  }
+  
+  .class-notes {
+    margin: 40px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    #darkModeToggle {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode header {
+    background-color: #333;
+  }
+  
+  .dark-mode #darkModeToggle {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dark-mode th {
+    background-color: #555;
+  }
+  
+  .dark-mode a {
+    color: #4dabf7;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
