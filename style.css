@@ -146,10 +146,7 @@ padding:50px;
 }
 
         
-        #mth111-lnotes {
-            width: 80%;
-            max-width: 300%;
-        }
+       
         table {
             /* width: 100%; */
             border-collapse: collapse;
@@ -245,8 +242,8 @@ padding:50px;
       }
       button{
         position: absolute;
-        top: 29px;
-        left: 30px;
+        top: 750px;
+        left: 1450px;
         width:170px;
         border-radius: 50%;
         width:50px;
@@ -286,8 +283,15 @@ padding:50px;
 
 
 
-
-
+      #mth111-lnotes {
+        width: 42%;
+      
+    }
+    .class-notes {
+        
+        padding:0px;
+      
+    }
 
 
 
