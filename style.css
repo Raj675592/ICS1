@@ -218,9 +218,9 @@ padding:50px;
         box-sizing: border-box;
         color: rgb(13, 13, 13);
         align-self: flex-end;
-       position: absolute;
+       position: fixed;
          top: 30px;
-        right: 30px;
+        left: 30px;
       }
     #darkModeToggle {
         background-color: #101011;
@@ -247,16 +247,16 @@ padding:50px;
       
       .dark-mode a {
         color: #121313;
-        color: #ffcc00;
+        
       }
       
       .dark-mode #darkModeToggle {
-        background-color: #ff9800;
+        background-color: #f7f6f3;
         color: #000;
       }
       
       .dark-mode #darkModeToggle:hover {
-        background-color: #e68900;
+        background-color: #f9f7f3;
       }
       button{
         position: fixed;
