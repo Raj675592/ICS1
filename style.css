@@ -372,7 +372,7 @@ button:hover{
         border: 2px solid #ca35c0;
         border-radius: 25px;
         outline: none;
-        background: linear-gradient(135deg, rgb(144, 0, 255), rgb(240, 10, 236));
+        background: linear-gradient(135deg, rgb(202, 195, 207), rgb(189, 183, 189));
         transition: all 0.3s ease-in-out;
         color:rgb(14, 14, 14);
         position: absolute;
