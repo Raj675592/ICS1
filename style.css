@@ -375,7 +375,7 @@ button:hover{
         background: linear-gradient(135deg, white);
         transition: all 0.3s ease-in-out;
         color:rgb(14, 14, 14);
-        position: fixed;
+        position: absolute;
          top: 49px;
         right: 3px;
       }
