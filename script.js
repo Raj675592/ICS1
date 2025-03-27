@@ -43,26 +43,30 @@ function loadCourse(courseId) {
 
 
 
+const toggleButton = document.getElementById('darkModeToggle');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      toggleButton.textContent = document.body.classList.contains('dark-mode') 
+        ? '☀️ ' 
+        : '🌙 ';
+    });
+  
 
 
 
 
 
 
-// const courses = {
-//     MTH111M: {
-//         title: "MTH111M - Single Variable Calculus",
-//         pyqs: "Here you can find the previous year questions for the course.",
-//         assignments: "Here you can find the assignments for the course.",
-//         amNotes: "Here you can find the AM notes for the course.",
-//         classNotes: "Here you can find the class notes for the course."
-//     },
-//     PHY111: {
-//         title: "PHY111 - Physics Laboratory",
-//         pyqs: "Here you can find the previous year questions for the course.",
-//         assignments: "Here you can find the assignments for the course.",
-//         amNotes: "Here you can find the AM notes for the course.",
-//         classNotes: "Here you can find the class notes for the course."
-//     },
-//     // Add more courses here
-// };
+
+
+
+
+
+
+
+
+
+
+
+
+  

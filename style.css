@@ -374,7 +374,7 @@ button:hover{
         outline: none;
         background: linear-gradient(135deg, white);
         transition: all 0.3s ease-in-out;
-        color:white;
+        color:rgb(14, 14, 14);
         position: fixed;
          top: 49px;
         right: 3px;
@@ -437,3 +437,39 @@ button:hover{
   }
 
 
+
+
+
+
+
+
+
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  #darkModeToggle:hover {
+    background-color: rgba(8, 8, 8, 1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  #loading {
+    font-size: 2rem;
+    color: white;
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
