@@ -1,5 +1,12 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
 h1 {
-    color: rgb(7, 7, 249);
+    /* color: rgb(7, 7, 249); */
+    color:#e30c0c;
     text-align: center;
    
     
@@ -61,11 +68,11 @@ a {
 
 
 header {
-    background-color: #2804f5;
+    
     color: #ffffff;
-    padding: 20px;
+   
     text-align: center;
-    border-radius: 8px;
+    
    align-items: center;
   }
 
@@ -90,23 +97,23 @@ header {
     text-decoration:solid;
     padding: 8px;
     border-radius: 8px;
-    background-color: #2804f5;
+    
     color: rgb(244, 244, 247);
 }
 #head h1:hover{
-    background-color: #2804f5;
+   
     color: rgb(245, 246, 248);
 }
 #head h1:active{
-    background-color: #2804f5;
+    
     color: rgb(248, 249, 250);
 }
 #head h1:focus{
-    background-color: #b0d12b;
+  
     color: rgb(241, 242, 244);
 }
 #head h1:visited{
-    background-color: #e810b2;
+   
     color: rgb(242, 243, 247);
 }
 
@@ -190,9 +197,9 @@ padding:50px;
             color: #0056b3;
         } */
         header {
-            background-color: #2804f5; 
+             
             color: #0a0ef5; 
-            padding: 20px;
+            
             text-align: center;
             border-radius: 8px;
         }
@@ -201,19 +208,19 @@ padding:50px;
             margin: 0;
             font-size: 2em;
             color: #ffffff;
-            background-color: #2804f5;
+           
         }
         
     #y{
         color: rgb(247, 243, 243);
     }
-    #searchBar {
+    /* #searchBar {
         
         
         width: 100%;
-        max-width: 400px;
+        max-width: 350px;
         border: 1px solid #ccc;
-        border-radius: 8px;
+        border-radius: 10px;
         font-size: 16px;
        font-size: x-large;
         padding: 8px;
@@ -221,9 +228,9 @@ padding:50px;
         color: rgb(13, 13, 13);
         align-self: flex-end;
        position: fixed;
-         top: 13px;
-        left: 30px;
-      }
+         top: 49px;
+        right: 3px;
+      } */
     #darkModeToggle {
         background-color: #101011;
         color: #fff;
@@ -294,9 +301,7 @@ button:hover{
       .card-course{
         color:#000;
       }
-      a {
-        color: #0011ff;
-      }
+     
 
 
 
@@ -333,7 +338,82 @@ button:hover{
       right:10px;
      }
       
+      #logo{
+        width:400px;
+        height:100px;
+        position:absolute ;
+       left:0px;
+        
+      }
+
+      header{
+        background: linear-gradient(135deg, #2d12c6 , #ac44a5); 
+        padding:20px;
+        margin:0px;
+        border-radius: 0px;
+       
+      }
+      #head{
+        background: linear-gradient(135deg, #270eb6 , #ca35c0); 
+        padding:20px;
+        margin:0px;
+        border-radius: 0px;
+        height:100px;
+
+      }
+
+
+
+      #searchBar {
+        width: 100%;
+        max-width: 400px;
+        padding: 12px 20px;
+        font-size: 16px;
+        border: 2px solid #ca35c0;
+        border-radius: 25px;
+        outline: none;
+        background: linear-gradient(135deg, white);
+        transition: all 0.3s ease-in-out;
+        color:white;
+        position: fixed;
+         top: 49px;
+        right: 3px;
+      }
       
+      #searchBar:hover {
+        background: linear-gradient(135deg, rgb(80, 62, 170), rgba(202, 53, 192, 1));
+        box-shadow: 0 8px 16px rgba(202, 53, 192, 0.2);
+      }
+      
+      #searchBar:focus {
+        border-color: #270eb6;
+        background: #fff;
+        box-shadow: 0 8px 24px rgba(202, 53, 192, 0.4);
+      }
+      
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      #searchBar {
+        animation: fadeInUp 0.6s ease-out;
+      }
+      
+
+
+
+
+
+
+
+
 
 @media (max-width: 900px) {
     .card {
