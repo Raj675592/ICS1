@@ -135,7 +135,13 @@ section a strong::before {
 
 
 
-
+header{
+  background: linear-gradient(135deg, #2d12c6 , #ac44a5); 
+  padding:20px;
+  margin:0px;
+  border-radius: 0px;
+ 
+}
 
 
 
