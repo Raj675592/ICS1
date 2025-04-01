@@ -434,6 +434,21 @@ button:hover{
   }
   #darkModeToggle {
     padding: 10px 20px;
+    position: absolute;
+    top:47px;
+    left:1000px;
+  }
+  
+  footer{
+    background: fixed;
+    background:linear-gradient(135deg, rgb(234, 5, 219), black )
+    
+  }
+  #foot{
+    height:60px;
+    text-align: center;
+   color:white;
+    
   }
 
 
