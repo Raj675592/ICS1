@@ -50,5 +50,5 @@ This project is intended for educational purposes at IIT Kanpur and is open for 
 
 ## Author
 
-Me
+Rajkumar Ahirwar
 
