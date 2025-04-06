@@ -12,6 +12,10 @@ This project is a course listing webpage for IIT Kanpur, displaying details abou
 - **Responsive Design**: Ensures usability on various screen sizes.
 - **Footer Section**: Displays copyright information.
 
+
+## NOTE: Only MTH111 Course is now completely accessible. Don't try to open other course. 
+
+
 ## Technologies Used
 
 - **HTML**: Structuring the webpage.
@@ -38,15 +42,15 @@ This project is a course listing webpage for IIT Kanpur, displaying details abou
 3. Click on any course card to navigate to its respective page.
 4. Use the dark mode toggle button (🌙) to switch themes.
 
+
+
 ## Future Enhancements
 
 - Implement backend support to dynamically fetch course details.
 - Add a database for storing and managing course information.
 - Enhance UI/UX with better styling and animations.
 
-## License
 
-This project is intended for educational purposes at IIT Kanpur and is open for non-commercial use.
 
 ## Author
 
